@@ -144,7 +144,7 @@ export default function DashboardSidebar({
             <DashboardSidebarHeaderItem>Example items</DashboardSidebarHeaderItem>
             <DashboardSidebarPageItem
               id="reports"
-              title="Reports"
+              title="User&Role"
               icon={<BarChartIcon />}
               href="/reports"
               selected={!!matchPath('/reports', pathname)}
@@ -161,15 +161,15 @@ export default function DashboardSidebar({
                   }}
                 >
                   <DashboardSidebarPageItem
-                    id="sales"
-                    title="Sales"
+                    id="user"
+                    title="Users"
                     icon={<DescriptionIcon />}
                     href="/reports/sales"
                     selected={!!matchPath('/reports/sales', pathname)}
                   />
                   <DashboardSidebarPageItem
-                    id="traffic"
-                    title="Traffic"
+                    id="role"
+                    title="Roles"
                     icon={<DescriptionIcon />}
                     href="/reports/traffic"
                     selected={!!matchPath('/reports/traffic', pathname)}
