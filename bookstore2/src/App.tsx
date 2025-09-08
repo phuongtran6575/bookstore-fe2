@@ -6,7 +6,7 @@ import CrudDashboard from './crud-dashboard/CrudDashboard'
 function App() {
 
   return (
-    <Box>
+    <Box height={"100%"}>
       <CrudDashboard/>
     </Box>
   )
